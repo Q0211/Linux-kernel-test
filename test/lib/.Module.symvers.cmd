@@ -1,0 +1,1 @@
+cmd_/home/KyuPC/Project/kernel/kyu/test/lib/Module.symvers := sed 's/\.ko$$/\.o/' /home/KyuPC/Project/kernel/kyu/test/lib/modules.order | scripts/mod/modpost -m -a  -o /home/KyuPC/Project/kernel/kyu/test/lib/Module.symvers -e -i Module.symvers   -T -

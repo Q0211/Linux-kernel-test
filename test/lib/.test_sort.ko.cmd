@@ -1,0 +1,1 @@
+cmd_/home/KyuPC/Project/kernel/kyu/test/lib/test_sort.ko := ld -r -EL  -maarch64elf --build-id=sha1  -T scripts/module.lds -o /home/KyuPC/Project/kernel/kyu/test/lib/test_sort.ko /home/KyuPC/Project/kernel/kyu/test/lib/test_sort.o /home/KyuPC/Project/kernel/kyu/test/lib/test_sort.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_/home/KyuPC/Project/kernel/kyu/test/lib/modules.order := {   echo /home/KyuPC/Project/kernel/kyu/test/lib/test_sort.ko; :; } | awk '!x[$$0]++' - > /home/KyuPC/Project/kernel/kyu/test/lib/modules.order
